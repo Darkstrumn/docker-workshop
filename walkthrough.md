@@ -136,7 +136,7 @@ docker-compose --version
 
 3. [Run]
     ```bash
-    docker run -v `pwd`:/config --network=host agent
+    docker run -v `pwd`/config:/config --network=host agent
     ```
 
 
